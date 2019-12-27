@@ -142,7 +142,7 @@ const StyledIntro = styled.p`
   margin-bottom: 15px;
   letter-spacing: 3px;
   font-weight: 600;
-  animation: moveInTop 1s ease-out 0s backwards;
+  animation: moveInTop 1s ease-out 0.5s backwards;
 `;
 
 const StyledIconsContainer = styled.div`

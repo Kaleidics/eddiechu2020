@@ -45,7 +45,7 @@ const StyledLogoContainer = styled.div`
 const StyledLogo = styled.img`
   width: 32px;
   margin-bottom: 0;
-  animation: rollIn 1.2s ease-out 0.6s backwards;
+  animation: rollIn 1.2s ease-out backwards;
 `
 
 const StyledLinks = styled.div`

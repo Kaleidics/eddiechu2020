@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-image: linear-gradient(to bottom, #fff 100vh, #f4f7f6, #fff 50%);
+}
+
+main {
+    max-width: 1280px;
+    margin: 20px auto 100px auto;
+}

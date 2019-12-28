@@ -24,7 +24,7 @@ const Header = () => {
             </StyledHeading>
             <StyledText>
               Hey! I'm Eddie, a design driven developer that uses hot new tools
-              and tech to crate modern websites.
+              and tech to create modern websites.
             </StyledText>
           </StyledContainerTop>
           <StyledIntro>About me</StyledIntro>

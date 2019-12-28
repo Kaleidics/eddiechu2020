@@ -260,6 +260,7 @@ const StyledAboutLink1 = styled.a`
   display: inline-block;
   border: 2px solid black;
   margin-bottom: 10px;
+  max-width: 202px;
 
   &:hover > span {
     animation: leftnRight 0.8s infinite;
@@ -282,6 +283,7 @@ const StyledAboutLink2 = styled.a`
   color: black;
   border: 2px solid black;
   font-weight: 600;
+  max-width: 202px;
 
   &:hover > span {
     animation: leftnRight 0.8s infinite;

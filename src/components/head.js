@@ -21,11 +21,11 @@ const Head = ({ title }) => {
       meta={[
         {
           name: "description",
-          content: description,
+          content: data.site.siteMetadata.description,
         },
         {
           name: "keywords",
-          content: keywords,
+          content: data.site.siteMetadata.keywords,
         },
       ]}
     >

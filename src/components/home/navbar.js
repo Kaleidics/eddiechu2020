@@ -10,7 +10,7 @@ const Navbar = () => {
     <StyledNavbar>
       <StyledContainer>
         <StyledLogoContainer>
-          <StyledLogo src={Logo} />
+          <StyledLogo src={Logo} alt="Eddie Chu" />
         </StyledLogoContainer>
         <StyledLinks>
           <StyledLink1 href="./#main">Projects</StyledLink1>

@@ -2,6 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "Web Developer",
     author: "Eddie Chu",
+    description: "Eddie Chu is a front end developer in Sacramento, CA",
+    keywords: "Eddie Chu, Eddie, Chu, Web Developer, Front end Web Development, Coding, Development, Website, Javascript, HTML, CSS, SASS, React, Node, UI, Sacramento, California "
   },
   plugins: [
     "gatsby-plugin-react-helmet",

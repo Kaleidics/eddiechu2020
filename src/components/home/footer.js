@@ -38,7 +38,7 @@ const Footer = () => {
 
         {/* Signature */}
         <SigContainer>
-          <Signature src={Sig} />
+          <Signature src={Sig} alt="Eddie's Signature" />
         </SigContainer>
 
         {/* Bottom links */}
@@ -50,7 +50,7 @@ const Footer = () => {
           >
             <StyledGithub
               src={Github}
-              alt="Eddie ChuGithub"
+              alt="Eddie Chu Github"
               aria-label="Eddie Chu Kaleidics Github"
             />
           </FooterLinks>

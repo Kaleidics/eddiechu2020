@@ -1,21 +1,37 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import { useStaticQuery, graphql } from 'gatsby'
+import React from "react"
+import { Helmet } from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
 
 const Head = ({ title }) => {
-
-    const data = useStaticQuery(graphql`
-        query {
-            site {
-                siteMetadata {
-                    title
-                }
-            }
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+          author
+          description
+          keywords
         }
-    `)
-    return (
-        <Helmet title={`${title} | ${data.site.siteMetadata.title} `}/>
-    )
+      }
+    }
+  `)
+  return (
+    <Helmet
+      title={`${title} | ${data.site.siteMetadata.title} `}
+      meta={[
+        {
+          name: "description",
+          content: description,
+        },
+        {
+          name: "keywords",
+          content: keywords,
+        },
+      ]}
+    >
+      <html lang="en" />
+    </Helmet>
+  )
 }
 
 export default Head

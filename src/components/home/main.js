@@ -25,10 +25,11 @@ const Main = () => {
             href="https://expenx.netlify.com/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="ExpenX Website"
           >
             <StyledImageContainer>
-              <StyledImage src={ExpenxImage} />
-              <StyledLogo src={ExpenxLogo} />
+              <StyledImage src={ExpenxImage} alt="ExpenX" />
+              <StyledLogo src={ExpenxLogo} alt="ExpenX" />
             </StyledImageContainer>
           </a>
         </StyledProjectContainer>
@@ -39,10 +40,11 @@ const Main = () => {
             href="https://icodeui.com/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="iCodeUI Website"
           >
             <StyledImageContainer>
-              <StyledLogo2 src={iCodeUILogo} />
-              <StyledImage src={iCodeUIImage} />
+              <StyledLogo2 src={iCodeUILogo} alt="iCodeUI" />
+              <StyledImage src={iCodeUIImage} alt="iCodeUI" />
             </StyledImageContainer>
           </a>
         </StyledProjectContainer>

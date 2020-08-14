@@ -36,22 +36,25 @@ const Header = () => {
             href="https://github.com/Kaleidics"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Eddie Chu Github"
           >
-            <StyledGithub src={Github} />
+            <StyledGithub src={Github} alt="Eddie Chu Github" />
           </StyledLinks>
           <StyledLinks
             href="https://www.linkedin.com/in/eddiechu-dev/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Eddie Chu LinkedIn"
           >
-            <StyledLinkedIn src={LinkedIn} />
+            <StyledLinkedIn src={LinkedIn} alt="Eddie Chu Linkedin" />
           </StyledLinks>
           <StyledLinks
             href="mailto:contact@eddiechu.dev"
             target="_top"
             rel="noopener noreferrer"
+            aria-label="Eddie Chu Email"
           >
-            <StyledEmail src={Email} />
+            <StyledEmail src={Email} alt="Eddie Chu Email" />
           </StyledLinks>
         </StyledIconsContainer>
       </StyledContainer>

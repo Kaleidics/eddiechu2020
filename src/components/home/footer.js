@@ -21,7 +21,7 @@ const Footer = () => {
       <StyledContent>
         {/* Logo */}
         <LogoContainer>
-          <StyledLogo src={Logo} />
+          <StyledLogo src={Logo} alt="Eddie Chu Logo" />
         </LogoContainer>
 
         <StyledText>

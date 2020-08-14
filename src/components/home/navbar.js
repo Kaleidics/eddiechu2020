@@ -1,17 +1,29 @@
 import React from "react"
-import styled from 'styled-components'
+import styled from "styled-components"
 
 import Logo from "../../assets/logo.png"
+
+import resume from "../../assets/resume.pdf"
 
 const Navbar = () => {
   return (
     <StyledNavbar>
       <StyledContainer>
-        <StyledLogoContainer><StyledLogo src={Logo} /></StyledLogoContainer>
+        <StyledLogoContainer>
+          <StyledLogo src={Logo} />
+        </StyledLogoContainer>
         <StyledLinks>
-          <StyledLink1 href="">Work</StyledLink1>
-          <StyledLink2 href="">Resume</StyledLink2>
-          <StyledLink3 href="">Contact</StyledLink3>
+          <StyledLink1 href="./#main">Projects</StyledLink1>
+          <StyledLink2 href={resume} target="_blank" rel="noopener noreferrer">
+            Resume
+          </StyledLink2>
+          <StyledLink3
+            href="mailto:contact@eddiechu.dev"
+            target="_top"
+            rel="noopener noreferrer"
+          >
+            Contact
+          </StyledLink3>
         </StyledLinks>
       </StyledContainer>
     </StyledNavbar>
@@ -25,9 +37,9 @@ const StyledNavbar = styled.nav`
   padding: 10px;
 
   @media screen and (min-width: 1024px) {
-      padding: 32px;
+    padding: 32px;
   }
-`;
+`
 
 const StyledContainer = styled.div`
   width: 100%;
@@ -36,11 +48,11 @@ const StyledContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-`;
+`
 
 const StyledLogoContainer = styled.div`
   display: flex;
-`;
+`
 
 const StyledLogo = styled.img`
   width: 32px;
@@ -59,22 +71,23 @@ const StyledLinks = styled.div`
   font-size: 13px;
 `
 const StyledLink = styled.a`
-  &, &:visited {
+  &,
+  &:visited {
     text-decoration: none;
     color: white;
   }
 `
 
 const StyledLink1 = styled(StyledLink)`
-  animation: moveInTop 1.0s ease-out 0.5s backwards;
+  animation: moveInTop 1s ease-out 0.5s backwards;
 `
 
 const StyledLink2 = styled(StyledLink)`
-  animation: moveInTop 1.0s ease-out 0.6s backwards;
+  animation: moveInTop 1s ease-out 0.6s backwards;
 `
 
 const StyledLink3 = styled(StyledLink)`
-  animation: moveInTop 1.0s ease-out 0.7s backwards;
+  animation: moveInTop 1s ease-out 0.7s backwards;
 `
 
 export default Navbar

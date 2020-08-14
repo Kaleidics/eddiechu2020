@@ -4,20 +4,19 @@ import styled from 'styled-components'
 import ExpenxImage from "../../assets/expenxss.png"
 import ExpenxLogo from "../../assets/expenxlogo.png"
 
-import ReelReviewImage from "../../assets/reelmini.png"
-import ReelReviewLogo from "../../assets/reelreviewlogo.png"
+import iCodeUILogo from "../../assets/icodeuilogo.png"
+import iCodeUIImage from "../../assets/icodeuiss.png"
 
-import CCImage from "../../assets/coinmini.png"
-import CCLogo from "../../assets/bitcoin.png"
+import resume from "../../assets/resume.pdf"
 
 const Main = () => {
   return (
-    <StyledMain>
+    <StyledMain id="main">
       <StyledProjectSection>
         {/* Heading */}
         <StyledHeading>
-          <StyledProjectsSub>Latest Work</StyledProjectsSub>
-          <StyledProjectsMain>Selected Projects.</StyledProjectsMain>
+          <StyledProjectsSub>Personal Projects</StyledProjectsSub>
+          <StyledProjectsMain>Works In Progress.</StyledProjectsMain>
         </StyledHeading>
 
         {/* Project1 */}
@@ -37,30 +36,17 @@ const Main = () => {
         {/* Project2 */}
         <StyledProjectContainer>
           <a
-            href="https://reelreviews.xyz/"
+            href="https://icodeui.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <StyledImageContainer>
-              <StyledLogo2 src={ReelReviewLogo} />
-              <StyledImage src={ReelReviewImage} />
+              <StyledLogo2 src={iCodeUILogo} />
+              <StyledImage src={iCodeUIImage} />
             </StyledImageContainer>
           </a>
         </StyledProjectContainer>
 
-        {/* Project3 */}
-        <StyledProjectContainer>
-          <a
-            href="https://coinscompare.xyz/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <StyledImageContainer>
-              <StyledImage src={CCImage} />
-              <StyledLogo3 src={CCLogo} />
-            </StyledImageContainer>
-          </a>
-        </StyledProjectContainer>
         <StyledAboutLink0 href="">
           See all projects
           <StyledArrow>&#187;</StyledArrow>
@@ -82,11 +68,15 @@ const Main = () => {
           property insurance underwriting through online portals.
         </StyledAboutText>
         <StyledAboutLinks>
-          <StyledAboutLink1 href="">
+          <StyledAboutLink1 href={resume} target="_blank" rel="noopener noreferrer">
             View Resume
             <StyledArrow>&#187;</StyledArrow>
           </StyledAboutLink1>
-          <StyledAboutLink2 href="">
+          <StyledAboutLink2
+            href="https://www.linkedin.com/in/eddiechu-dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             View LinkedIn
             <StyledArrow>&#187;</StyledArrow>
           </StyledAboutLink2>

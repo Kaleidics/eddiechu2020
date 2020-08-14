@@ -23,8 +23,7 @@ const Header = () => {
               <StyledThirdAnimate>in Sacramento, CA.</StyledThirdAnimate>
             </StyledHeading>
             <StyledText>
-              Hey! I'm Eddie, a design driven developer that uses hot new tools
-              and tech to create modern websites.
+              Hi. I'm Eddie, a front end developer focused on style and then everything else.
             </StyledText>
           </StyledContainerTop>
           <StyledIntro>About me</StyledIntro>

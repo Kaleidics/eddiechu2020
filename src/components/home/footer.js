@@ -33,7 +33,7 @@ const Footer = () => {
           target="_top"
           aria-label="contact@eddiechu.dev"
         >
-          Say hi! I am always happy to meet new people →
+          Got a project? Let me know →
         </StyledMessage>
 
         {/* Signature */}
@@ -77,7 +77,6 @@ const Footer = () => {
         </IconsContainer>
         <Copyright>
           <CopyText>
-            © Eddie Chu 2020, unless otherwise noted. All rights reserved.
           </CopyText>
         </Copyright>
       </StyledContent>

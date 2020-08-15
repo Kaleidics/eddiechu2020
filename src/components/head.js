@@ -11,7 +11,6 @@ const Head = ({ title }) => {
           author
           description
           keywords
-          themeColor
         }
       }
     }
@@ -28,10 +27,6 @@ const Head = ({ title }) => {
           name: "keywords",
           content: data.site.siteMetadata.keywords,
         },
-        {
-          name: "theme-color",
-          content: data.site.siteMetadata.themeColor,
-        }
       ]}
     >
       <html lang="en" />

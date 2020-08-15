@@ -3,7 +3,9 @@ module.exports = {
     title: "Web Developer",
     author: "Eddie Chu",
     description: "Eddie Chu is a front end developer in Sacramento, CA",
-    keywords: "Eddie Chu, Eddie, Chu, Web Developer, Front end Web Development, Coding, Development, Website, Javascript, HTML, CSS, SASS, React, Node, UI, Sacramento, California "
+    keywords:
+      "Eddie Chu, Eddie, Chu, Web Developer, Front end Web Development, Coding, Development, Website, Javascript, HTML, CSS, SASS, React, Node, UI, Sacramento, California",
+    themeColor: "#101013",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -27,6 +29,6 @@ module.exports = {
         name: "src",
         path: `${__dirname}/src/`,
       },
-    }
+    },
   ],
 }

@@ -96,3 +96,12 @@
    0% { opacity: 0; transform: translateX(-100%) rotate(-120deg); }
    100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
 }
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}

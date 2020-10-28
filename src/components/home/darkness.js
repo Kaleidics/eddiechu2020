@@ -3,6 +3,8 @@ import React from "react"
 import styled from 'styled-components'
 import Wave from '../../assets/wave.png';
 
+import WavingDarkness from './wavingDarkness'
+
 const Darkness = ({className}) => {
   return (
     <StylishDarkness className={className}>
@@ -11,10 +13,7 @@ const Darkness = ({className}) => {
       <VerticalLineOneQuarter />
       <VerticalLineThreeQuarter />
       <HorizontalLineSecond />
-      <WaveFirst />
-      <WaveSecond />
-      <WaveThird />
-      <WaveFour />
+      <WavingDarkness />
     </StylishDarkness>
   )
 }

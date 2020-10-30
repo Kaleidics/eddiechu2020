@@ -1,14 +1,14 @@
 import React from "react"
 
 import styled from "styled-components"
-import "../../utils/animations.css";
+import "../../utils/animations.css"
 
 import Navbar from "./navbar"
 import Darkness from "./darkness"
 
-import Github from '../../assets/github.png';
-import LinkedIn from '../../assets/linkedin.png';
-import Email from '../../assets/mail.png';
+import Github from "../../assets/github.png"
+import LinkedIn from "../../assets/linkedin.png"
+import Email from "../../assets/mail.png"
 
 const Header = () => {
   return (
@@ -23,7 +23,8 @@ const Header = () => {
               <StyledThirdAnimate>in Sacramento, CA.</StyledThirdAnimate>
             </StyledHeading>
             <StyledText>
-              Hi. I'm Eddie, a front end developer focused on style and then everything else.
+              Hi. I'm Eddie, a front end developer focused on style and then
+              everything else.
             </StyledText>
           </StyledContainerTop>
           <StyledIntro>About me</StyledIntro>
@@ -70,11 +71,11 @@ const Header = () => {
 const StyledHeader = styled.header`
   position: relative;
   height: 100vh;
-`;
+`
 
 const StyledContainer = styled.div`
   position: absolute;
-  margin-top: 90px;
+  margin-top: 70px;
   z-index: 99999;
   padding: 20px 20px 20px 20px;
   width: 100%;
@@ -86,19 +87,17 @@ const StyledContainer = styled.div`
 
   @media screen and (min-height: 768px) {
     padding-bottom: 100px;
-    margin-top: 70px;
+    margin-top: 90px;
     max-width: 575px;
   }
-`;
+`
 
 const StyledMainContainer = styled.div`
   display: flex;
   flex-direction: column-reverse;
-`;
+`
 
-const StyledContainerTop = styled.div`
-
-`;
+const StyledContainerTop = styled.div``
 
 const StyledHeading = styled.h1`
   font-size: 28px;
@@ -113,15 +112,15 @@ const StyledHeading = styled.h1`
   @media screen and (min-height: 800px) and (min-width: 768px) {
     font-size: 42px;
   }
-`;
+`
 
 const StyledSecondAnimate = styled.span`
   animation: moveInLeft 1.5s ease-out 0.6s backwards;
-`;
+`
 
 const StyledThirdAnimate = styled.span`
   animation: moveInLeft 1.5s ease-out 0.8s backwards;
-`;
+`
 
 const StyledText = styled.p`
   line-height: 1.8;
@@ -135,7 +134,7 @@ const StyledText = styled.p`
   @media screen and (min-width: 768px) {
     font-size: 20px;
   }
-`;
+`
 
 const StyledIntro = styled.p`
   line-height: 1.8;
@@ -147,7 +146,7 @@ const StyledIntro = styled.p`
   letter-spacing: 3px;
   font-weight: 600;
   animation: moveInTop 1s ease-out 0.5s backwards;
-`;
+`
 
 const StyledIconsContainer = styled.div`
   display: flex;
@@ -181,7 +180,7 @@ const StyledLinkedIn = styled.img`
 
 const StyledEmail = styled.img`
   width: 26px;
-  animation: moveInLeft-slower 1s ease-out 2.0s backwards;
+  animation: moveInLeft-slower 1s ease-out 2s backwards;
   margin-bottom: 0;
 `
 

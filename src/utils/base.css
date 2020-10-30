@@ -19,6 +19,7 @@ main {
     width: 100%;
     bottom: 0px;
     z-index: 99999;
+    height: 20vh;
 }
 .waves {
     position: relative;
@@ -55,5 +56,13 @@ main {
     .waves {
         height: 40px;
         min-height: 40px;
+    }
+
+    .dark-light {
+        width: 100%;
+        background: white;
+        height: 100%;
+        position: absolute;
+        top: 39px;
     }
 }

@@ -69,6 +69,7 @@ const Header = () => {
 
 const StyledHeader = styled.header`
   position: relative;
+  height: 100vh;
 `;
 
 const StyledContainer = styled.div`

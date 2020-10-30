@@ -90,7 +90,7 @@ const Main = () => {
 
 const StyledMain = styled.main`
   max-width: 1280px;
-  margin: 20px auto 100px auto;
+  margin: 120px auto 100px auto;
 `;
 
 const StyledProjectSection = styled.section`

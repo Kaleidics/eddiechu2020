@@ -23,8 +23,8 @@ const Header = () => {
               <StyledThirdAnimate>in Sacramento, CA.</StyledThirdAnimate>
             </StyledHeading>
             <StyledText>
-              Hi. I'm Eddie, a front end developer. <br /> I do JavaScript and
-              ColdFusion.
+              Hi. I'm Eddie, a front end developer focused on intuitive design
+              and functional simplicity.
             </StyledText>
           </StyledContainerTop>
           <StyledIntro>About me</StyledIntro>

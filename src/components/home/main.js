@@ -1,5 +1,5 @@
 import React from "react"
-import styled from 'styled-components'
+import styled from "styled-components"
 
 import ExpenxImage from "../../assets/expenxss.png"
 import ExpenxLogo from "../../assets/expenxlogo.png"
@@ -66,11 +66,15 @@ const Main = () => {
           expanse of the web.
         </StyledAboutText> */}
         <StyledAboutText>
-          I am a Front-end developer streamlining traditional automotive and
-          property insurance underwriting through online portals.
+          I am currently building an automotive and property insurance SaaS
+          platform to streamline traditional underwriting processes.
         </StyledAboutText>
         <StyledAboutLinks>
-          <StyledAboutLink1 href={resume} target="_blank" rel="noopener noreferrer">
+          <StyledAboutLink1
+            href={resume}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             View Resume
             <StyledArrow>&#187;</StyledArrow>
           </StyledAboutLink1>
@@ -91,20 +95,20 @@ const Main = () => {
 const StyledMain = styled.main`
   max-width: 1280px;
   margin: 120px auto 100px auto;
-`;
+`
 
 const StyledProjectSection = styled.section`
   padding: 20px;
   max-width: 750px;
   margin: 0 auto;
-`;
+`
 
 const StyledHeading = styled.h2`
   display: flex;
   flex-direction: column;
   max-width: 535px;
   margin: 0 auto;
-`;
+`
 
 const StyledProjectsSub = styled.span`
   line-height: 1.8;
@@ -116,7 +120,7 @@ const StyledProjectsSub = styled.span`
   letter-spacing: 3px;
   font-weight: 600;
   margin-bottom: 10px;
-`;
+`
 
 const StyledProjectsMain = styled.span`
   font-size: 26px;
@@ -132,12 +136,12 @@ const StyledProjectsMain = styled.span`
 
 const StyledProjectContainer = styled.div`
   margin: 80px 0;
-`;
+`
 
 const StyledImageContainer = styled.div`
   display: flex;
   justify-content: space-between;
-`;
+`
 
 const StyledLogo = styled.img`
   width: 32px;
@@ -149,7 +153,7 @@ const StyledLogo = styled.img`
   &:hover {
     transform: translate(0, -10px);
   }
-`;
+`
 const StyledLogo2 = styled.img`
   width: 42px;
   height: 36px;
@@ -160,7 +164,7 @@ const StyledLogo2 = styled.img`
   &:hover {
     transform: translate(0, -10px);
   }
-`;
+`
 
 const StyledLogo3 = styled.img`
   width: 32px;
@@ -172,7 +176,7 @@ const StyledLogo3 = styled.img`
   &:hover {
     transform: translate(0, -10px);
   }
-`;
+`
 
 const StyledImage = styled.img`
   width: 80%;
@@ -185,12 +189,12 @@ const StyledImage = styled.img`
   &:hover {
     transform: translate(0, -10px);
   }
-`;
+`
 
 const StyledAboutSection = styled.section`
   margin: 100px 0;
   padding: 20px;
-`;
+`
 
 const StyledAboutText = styled.p`
   line-height: 1.8;
@@ -203,7 +207,7 @@ const StyledAboutText = styled.p`
   font-family: "Lora", serif;
   font-size: 18px;
   line-height: 32px;
-`;
+`
 
 const StyledAboutLinks = styled.div`
   margin: 40px auto 0 auto;

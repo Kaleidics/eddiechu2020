@@ -80,7 +80,7 @@ const StyledContainer = styled.div`
   padding: 20px 20px 20px 20px;
   width: 100%;
   max-width: 1280px;
-  top: 66%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -100%);
   max-width: 410px;

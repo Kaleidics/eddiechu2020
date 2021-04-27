@@ -1,71 +1,64 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    position: relative;
-    background-image: linear-gradient(to bottom, #fff 100vh, #f4f7f6, #fff 50%);
+  position: relative;
+  background-image: linear-gradient(to bottom, #fff 100vh, #f4f7f6, #fff 50%);
 }
 
 main {
-    max-width: 1280px;
-    margin: 20px auto 100px auto;
+  max-width: 1280px;
+  margin: 20px auto 100px auto;
 }
 
 .waving-darkness {
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-    z-index: 99999;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  z-index: 99999;
+  line-height: 0;
 }
 .waves {
-    position: relative;
-    width: 100%;
-    height: 15vh;
-    margin-bottom: -7px;
-    /*Fix for safari gap*/
-    min-height: 100px;
-    max-height: 150px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  animation-name: move-left;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 /* Animation */
-.parallax>use {
-    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
 }
-.parallax>use:nth-child(1) {
-    animation-delay: -2s;
-    animation-duration: 7s;
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
 }
-.parallax>use:nth-child(2) {
-    animation-delay: -3s;
-    animation-duration: 10s;
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
 }
-.parallax>use:nth-child(3) {
-    animation-delay: -4s;
-    animation-duration: 13s;
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
 }
-.parallax>use:nth-child(4) {
-    animation-delay: -5s;
-    animation-duration: 20s;
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
 }
 
 @media (max-width: 768px) {
-    .waves {
-        height: 45px;
-        min-height: 45px;
-    }
-
-    .waving-darkness {
-         height: 15vh;
-    }
-
-    .dark-light {
-        width: 100%;
-        background: white;
-        height: 100%;
-        position: absolute;
-        top: 45px;
-    }
+  .dark-light {
+    width: 100%;
+    background: white;
+    height: 100%;
+    position: absolute;
+    top: 45px;
+  }
 }

@@ -5,18 +5,202 @@ import styled from "styled-components"
 const WavingDarkness = () => {
   return (
     <div className="waving-darkness">
-      <div className="dark-light"></div>
-        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-            <defs>
-                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-            </defs>
-            <g class="parallax">
-                <use xlinkHref="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.1" />
-                <use xlinkHref="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.1)" />
-                <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.1)" />
-                <use xlinkHref="#gentle-wave" x="48" y="7" fill="#fff" />
-            </g>
+      <div className="waves">
+        <svg
+          width="100%"
+          height="200px"
+          fill="none"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            width="100%"
+            fill="#fff"
+            opacity="0.1"
+            d="
+          M0 67
+          C 273,183
+            822,-40
+            3840.00,106
+          V 359
+          H 0
+          V 67
+          Z"
+          >
+            <animate
+              repeatCount="indefinite"
+              fill="url(#grad1)"
+              attributeName="d"
+              dur="10s"
+              attributeType="XML"
+              values="
+            M0 77
+            C 473,283
+              822,-40
+              3840,116
+            V 359
+            H 0
+            V 67
+            Z;
+            M0 77
+            C 473,-40
+              1222,283
+              3840,136
+            V 359
+            H 0
+            V 67
+            Z;
+            M0 77
+            C 973,260
+              1722,-53
+              3840,120
+            V 359
+            H 0
+            V 67
+            Z;
+            M0 77
+            C 473,283
+              822,-40
+              3840,116
+            V 359
+            H 0
+            V 67
+            Z
+            "
+            ></animate>
+          </path>
         </svg>
+      </div>
+
+      <div className="waves">
+        <svg
+          width="100%"
+          height="220px"
+          fill="none"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill="#fff"
+            opacity="0.1"
+            d="
+          M0 67
+          C 273,183
+            822,-40
+            3840.00,106
+          V 359
+          H 0
+          V 67
+          Z"
+          >
+            <animate
+              repeatCount="indefinite"
+              fill="url(#grad1)"
+              attributeName="d"
+              dur="8s"
+              attributeType="XML"
+              values="
+            M0 77
+            C 473,283
+              822,-40
+              3840,116
+            V 359
+            H 0
+            V 67
+            Z;
+            M0 77
+            C 473,-40
+              1222,283
+              3840,136
+            V 359
+            H 0
+            V 67
+            Z;
+            M0 77
+            C 973,260
+              1722,-53
+              3840,120
+            V 359
+            H 0
+            V 67
+            Z;
+            M0 77
+            C 473,283
+              822,-40
+              3840,116
+            V 359
+            H 0
+            V 67
+            Z
+            "
+            ></animate>
+          </path>
+        </svg>
+      </div>
+      <div className="waves" style={{ bottom: "-80px" }}>
+        <svg
+          width="100%"
+          height="260px"
+          fil="none"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill="#fff"
+            d="
+          M0 67
+          C 273,183
+            822,-40
+            3840.00,106
+          V 359
+          H 0
+          V 67
+          Z"
+          >
+            <animate
+              repeatCount="indefinite"
+              fill="url(#grad1)"
+              attributeName="d"
+              dur="12s"
+              attributeType="XML"
+              values="
+            M0 77
+            C 473,283
+              822,-40
+              3840,116
+            V 359
+            H 0
+            V 67
+            Z;
+            M0 77
+            C 473,-40
+              1222,283
+              3840,136
+            V 359
+            H 0
+            V 67
+            Z;
+            M0 77
+            C 973,260
+              1722,-53
+              3840,120
+            V 359
+            H 0
+            V 67
+            Z;
+            M0 77
+            C 473,283
+              822,-40
+              3840,116
+            V 359
+            H 0
+            V 67
+            Z
+            "
+            ></animate>
+          </path>
+        </svg>
+      </div>
     </div>
   )
 }

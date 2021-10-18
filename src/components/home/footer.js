@@ -1,5 +1,5 @@
 import React from "react"
-import styled from 'styled-components'
+import styled from "styled-components"
 
 import Darkness from "./darkness"
 import Logo from "../../assets/logo.png"
@@ -26,7 +26,7 @@ const Footer = () => {
 
         <StyledText>
           Eddie Chu works as a full-time software developer, but is open to new
-          and exiciting projects.
+          and exciting projects.
         </StyledText>
         <StyledMessage
           href="mailto:contact@eddiechu.dev"
@@ -76,8 +76,7 @@ const Footer = () => {
           </FooterLinks>
         </IconsContainer>
         <Copyright>
-          <CopyText>
-          </CopyText>
+          <CopyText></CopyText>
         </Copyright>
       </StyledContent>
     </StyledFooter>
@@ -108,18 +107,18 @@ const StyledContent = styled.div`
 
 const LogoContainer = styled.div`
   display: flex;
-`;
+`
 
 const StyledLogo = styled.img`
   width: 32px;
-`;
+`
 
 const StyledText = styled.p`
   line-height: 1.8;
   color: rgb(143, 143, 146);
   font-family: "Lora", serif;
   margin: 20px 0;
-`;
+`
 
 const StyledMessage = styled.a`
   font-weight: 600;
@@ -130,34 +129,34 @@ const StyledMessage = styled.a`
   margin: 20px 0;
   font-family: "Merriweather", serif;
   letter-spacing: 1px;
-`;
+`
 
 const SigContainer = styled.div`
   width: 66%;
   max-width: 160px;
   margin: 20px 0 40px 0;
-`;
+`
 
 const Signature = styled.img`
   max-width: 100%;
   padding: 0;
   margin: 0;
-`;
+`
 
 const IconsContainer = styled.div`
   display: flex;
   align-items: center;
-`;
+`
 
 const FooterLinks = styled.a`
   margin-right: 25px;
-`;
+`
 
 const StyledGithub = styled.img`
   width: 26px;
   margin-bottom: 0;
   display: flex;
-`;
+`
 
 const StyledLinkedIn = styled.img`
   width: 20px;
@@ -177,7 +176,7 @@ const Copyright = styled.div`
   position: absolute;
   bottom: 0;
   margin: 20px 0;
-`;
+`
 
 const CopyText = styled.p`
   margin: 0;
